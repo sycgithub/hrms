@@ -1,14 +1,14 @@
 package com.hrms.action;
 
+import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ServletActionContext;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import org.apache.struts2.ServletActionContext;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
-import com.opensymphony.xwork2.ActionSupport;
 //push test
 @Component("baseAction")
 @Scope("prototype")
