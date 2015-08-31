@@ -9,7 +9,7 @@ import org.apache.struts2.ServletActionContext;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import com.opensymphony.xwork2.ActionSupport;
-
+//push test
 @Component("baseAction")
 @Scope("prototype")
 public class BaseAction extends ActionSupport {
